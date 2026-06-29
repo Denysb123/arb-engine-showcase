@@ -17,6 +17,7 @@ A curated, sanitized showcase of engineering patterns I use when building
 | 🔐 Secret encryption | [`src/crypto.py`](src/crypto.py) | Fernet-based encryption for storing API keys at rest, with env/file key loading and backward compatibility |
 | 🛠️ Exchange abstraction | [`src/exchanges.py`](src/exchanges.py) | Normalizing symbol formats and instrument metadata across multiple exchanges (Binance, Bybit, MEXC, Gate, BingX) |
 | ⚡ Caching | [`src/cache.py`](src/cache.py) | A small TTL cache decorator for rate-limit-friendly access to public endpoints |
+| 🔏 Signed REST | [`src/signed_request.py`](src/signed_request.py) | Async HMAC-SHA256 signed requests to private exchange endpoints, with the secret never sent over the wire |
 | 🗃️ Data layer | [`src/models.py`](src/models.py) | Clean `dataclass`-based domain models for trades and positions |
 | ✅ Tests | [`tests/`](tests/) | `pytest` coverage for the encryption and exchange utilities |
 
