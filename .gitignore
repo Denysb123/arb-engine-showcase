@@ -1,0 +1,25 @@
+# secrets / keys — never commit
+secret.key
+*.key
+.env
+
+# databases / data
+*.db
+*.sqlite
+*.sqlite3
+
+# logs
+*.log
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
