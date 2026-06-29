@@ -1,5 +1,7 @@
 # arb-engine-showcase
 
+[![tests](https://github.com/Denysb123/arb-engine-showcase/actions/workflows/tests.yml/badge.svg)](https://github.com/Denysb123/arb-engine-showcase/actions/workflows/tests.yml)
+
 A curated, sanitized showcase of engineering patterns I use when building
 **async trading / arbitrage infrastructure in Python**.
 
